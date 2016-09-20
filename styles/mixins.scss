@@ -1,0 +1,11 @@
+@mixin borders {
+  border: 2px solid #81bce5;
+}
+
+@mixin shirt-mobile-size {
+  width: 70vw;
+  height: 61vh;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}

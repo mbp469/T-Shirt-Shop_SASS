@@ -1,0 +1,16 @@
+
+.description {
+  position: absolute;
+  left: 0vw;
+  bottom: 4vh;
+}
+
+.price {
+  position: absolute;
+  bottom: 4vh;
+  right: 0vw;
+
+  &:before {
+    content: "$";
+  }
+}

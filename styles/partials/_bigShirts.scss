@@ -1,0 +1,17 @@
+.shirt-container {
+    position: relative;
+    @include shirt-mobile-size;
+
+    .flip {
+      @include shirt-mobile-size;
+
+      .big-shirt {
+        @include shirt-mobile-size;
+      }
+
+      .back-of-shirt {
+        @include shirt-mobile-size;
+      }
+
+    }
+}

@@ -1,0 +1,77 @@
+@import url(reset.css);
+@import url(styles/font-awesome-4.6.3/css/font-awesome.css);
+@import url(styles/fontello-f41038ea/css/shirt.css);
+@import url(t-shirts.css);
+.shirt-container {
+  position: relative;
+  width: 70vw;
+  height: 61vh;
+  position: absolute;
+  top: 0px;
+  left: 0px; }
+  .shirt-container .flip {
+    width: 70vw;
+    height: 61vh;
+    position: absolute;
+    top: 0px;
+    left: 0px; }
+    .shirt-container .flip .big-shirt {
+      width: 70vw;
+      height: 61vh;
+      position: absolute;
+      top: 0px;
+      left: 0px; }
+    .shirt-container .flip .back-of-shirt {
+      width: 70vw;
+      height: 61vh;
+      position: absolute;
+      top: 0px;
+      left: 0px; }
+
+.bottom-icon-strip {
+  position: relative;
+  bottom: -49vh;
+  height: 12vh;
+  overflow: hidden; }
+  .bottom-icon-strip .bottom-icon-strip li {
+    float: left;
+    width: 20%; }
+
+.description {
+  position: absolute;
+  left: 0vw;
+  bottom: 4vh; }
+
+.price {
+  position: absolute;
+  bottom: 4vh;
+  right: 0vw; }
+  .price:before {
+    content: "$"; }
+
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  color: #81bce5; }
+
+.item-block {
+  position: relative;
+  margin: 15vw;
+  overflow: hidden;
+  margin: 15vw;
+  height: 74vh; }
+  .item-block .shirt-with-boxes {
+    border: 2px solid #81bce5;
+    width: 70vw;
+    height: 61vh;
+    position: absolute;
+    top: 0px;
+    left: 0px; }
+    .item-block .shirt-with-boxes .fa-undo {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 1%;
+      border: 2px solid #81bce5; }
+
+/*# sourceMappingURL=style.css.map */

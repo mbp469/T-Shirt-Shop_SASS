@@ -1,0 +1,43 @@
+@import "reset.css";
+@import "styles/font-awesome-4.6.3/css/font-awesome.css";
+@import "styles/fontello-f41038ea/css/shirt.css";
+@import "mixins.scss";
+@import "partials/bigShirts";
+@import "partials/BottomIconStrip";
+@import "partials/PopUps";
+@import "partials/Footer";
+@import "t-shirts.css";
+
+
+$color1: #81bce5;
+$color2: #d583ac;
+$color3: #deb17e;
+$color4: #8bb992;
+
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  color: $color1;
+}
+
+
+.item-block {
+  position: relative;
+  margin: 15vw;
+  overflow: hidden;
+  margin: 15vw;
+  height: 74vh;
+
+    .shirt-with-boxes {
+      @include borders;
+      @include shirt-mobile-size;
+
+      .fa-undo {
+        position:absolute;
+        top: 0;
+        right: 0;
+        padding: 1%;
+        @include borders;
+      }
+    }
+}
