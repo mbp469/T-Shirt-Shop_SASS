@@ -1,0 +1,105 @@
+.size-container {
+  position: relative;
+  bottom: 44vh;
+  height: 34vh;
+  width: 20vw;
+  left: -3vw;
+  @include borders;
+
+   ul {
+     li {
+      width: 19vw;
+      border: none;
+    }
+  }
+
+    .icon-t-shirt {
+      position: absolute;
+      text-align: center;
+    }
+  }
+
+
+      .xl-shirt {
+        top: 3px;
+        left: 6px;
+        font-size: 3em;
+        position: absolute;
+
+        .size-on-xl {
+          position: absolute;
+          top: 2px;
+          left: 19px;
+          font-size: 0.45em;
+        }
+      }
+
+      .l-shirt {
+        top: 51px;
+        left: 17px;
+        font-size: 2.25em;
+        position: absolute;
+
+        .size-on-l {
+          position: absolute;
+          top: 2px;
+          left: 17px;
+          font-size: 0.45em;
+        }
+      }
+
+      .m-shirt {
+        top: 95px;
+        left: 17px;
+        font-size: 2em;
+        position: absolute;
+
+        .size-on-m {
+          position: absolute;
+          top: 2px;
+          left: 17px;
+          font-size: 0.45em;
+        }
+      }
+
+      .s-shirt {
+        top: 139px;
+        left: 19px;
+        font-size: 1.75em;
+        position: absolute;
+
+        .size-on-s {
+          position: absolute;
+          top: 2px;
+          left: 17px;
+          font-size: 0.45em;
+        }
+      }
+
+      .triangle {
+        position: absolute;
+        left: 23px;
+        top: 167px;
+        font-size: 2.5em;
+        background: translucent;
+      }
+
+      /*
+      color tranformations on hover
+      */
+
+      .tiny-box:hover,
+      .fa-undo:hover,
+      .tiny-box:hover .fa{
+        background: #81bce5;
+        color: white;
+      }
+
+      .color:hover .empty-square {
+        opacity: 1;
+        z-index: 5;
+      }
+
+      .color:hover .fa-stop {
+        opacity: 0;
+      }

@@ -7,11 +7,71 @@
 
       .big-shirt {
         @include shirt-mobile-size;
+        transform: rotateY(0deg);
       }
 
       .back-of-shirt {
         @include shirt-mobile-size;
+        opacity: 1;
+        transform: rotateY(180deg);
       }
 
+    }
+}
+
+.big-shirt-blue {
+  background: url(../images/shirts/blue-front.png) no-repeat;
+  background-size: contain;
+}
+
+.big-shirt-pink {
+  background: url(../images/shirts/pink-front.png) no-repeat;
+  background-size: contain;
+}
+
+.big-shirt-yellow {
+  background: url(../images/shirts/yellow-front.png) no-repeat;
+  background-size: contain;
+}
+
+.back-of-shirt-blue {
+  background: url(../images/shirts/blue-back.png) no-repeat;
+  background-size: contain;
+}
+
+.back-of-shirt-pink {
+  background: url(../images/shirts/pink-back.png) no-repeat;
+  background-size: contain;
+}
+
+.back-of-shirt-yellow {
+  background: url(../images/shirts/yellow-back.png) no-repeat;
+  background-size: contain;
+}
+
+/*
+spinning the big shirt around
+*/
+
+  .fa-undo:hover ~ .shirt-container .flip {
+    animation: flip-shirt 1.75s infinite ease-in-out;
+}
+
+
+@keyframes flip-shirt {
+    0% {
+      transform: rotateY(0deg);
+    }
+    25% {
+      transform: rotateY(-180deg);
+    }
+    50% {
+      transform: rotateY(-180deg);
+    }
+    75% {
+      transform: rotateY(0deg);
+    }
+    100% {
+      transform: rotateY(0deg);
     }
 }

@@ -1,14 +1,25 @@
-.bottom-icon-strip {
-  position: relative;
-  bottom: -49vh;
-  height: 12vh;
+.shirt-with-boxes {
   overflow: hidden;
+  .bottom-icon-strip {
+    position: relative;
+    bottom: -49vh;
+    height: 12vh;
+    width: 100%;
+    float: right;
+  }
 
-
-
+  .bottom-icon-strip :first-child {
+    border-left: none;
+  }
 
   .bottom-icon-strip li {
     float: left;
-    width: 20%;
+    width: 13.8vw;
+    @include borders;
+    height: 12vh;
+    text-align: center;
+    line-height: 4.3em;
   }
+
+
 }
